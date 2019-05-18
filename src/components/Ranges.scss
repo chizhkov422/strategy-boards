@@ -1,0 +1,30 @@
+.List {
+  margin-bottom: 50px;
+}
+
+.Start-Block, .End-Block {
+  margin-bottom: 10px;
+
+  label {
+    display:inline-block;
+    width: 100px;
+  }
+}
+
+.Button {
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &-Add {
+    background-color: rgba(8, 221, 8, 0.863);
+    margin-right: 10px;
+  }
+  &-Remove {
+    background-color: rgba(255, 0, 0, 0.678);
+  }
+}
